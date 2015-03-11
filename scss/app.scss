@@ -1,0 +1,76 @@
+//table des matière
+// 1. import de settings de foundation
+// 2. import d'éléments précis de foundation
+// 3. variable de couleurs et typo
+// 4. import de tous les fichiers de typographie
+// 5. page d'écrasement des style de foundation nécessaire
+// 6. stylage général du site
+// 7. helper pour class visuallyhidden selectable
+// 8. media query de format large
+// 9. media query de format medium
+// 10. media query de format small
+// 11. media query de format d'impression
+
+
+// 1. import de settings de foundation
+@import "settings";
+//@import "foundation";
+
+// 2. import d'éléments précis de foundation
+// Or selectively include components
+@import
+  // "foundation/components/accordion",
+  // "foundation/components/alert-boxes",
+  // "foundation/components/block-grid",
+  // "foundation/components/breadcrumbs",
+  // "foundation/components/button-groups",
+  "foundation/components/buttons",
+  // "foundation/components/clearing",
+  // "foundation/components/dropdown",
+  // "foundation/components/dropdown-buttons",
+  // "foundation/components/flex-video",
+  // "foundation/components/forms",
+  // "foundation/components/grid",
+  // "foundation/components/inline-lists",
+  // "foundation/components/joyride",
+  // "foundation/components/keystrokes",
+  // "foundation/components/labels",
+  // "foundation/components/magellan",
+  // "foundation/components/orbit",
+  // "foundation/components/pagination",
+  // "foundation/components/panels",
+  // "foundation/components/pricing-tables",
+  // "foundation/components/progress-bars",
+  // "foundation/components/reveal",
+  // "foundation/components/side-nav",
+  // "foundation/components/split-buttons",
+  // "foundation/components/sub-nav",
+  // "foundation/components/switch",
+  // "foundation/components/tables",
+  // "foundation/components/tabs",
+  // "foundation/components/thumbs",
+  // "foundation/components/tooltips",
+  "foundation/components/top-bar",
+  // "foundation/components/type",
+  // "foundation/components/offcanvas",
+  "foundation/components/visibility";
+
+
+// 3. variable de couleurs et typo
+@import "variables";
+// 4. import de tous les fichiers de typographie
+@import "fonts";
+// 5. page d'écrasement des style de foundation nécessaire
+@import "override";
+// 6. stylage général du site
+@import "modules";
+// 7. helper pour class visuallyhidden selectable
+@import "helper";
+// 8. media query de format large
+@import "large";
+// 9. media query de format medium
+@import "medium";
+// 10. media query de format small
+@import "small";
+// 11. media query de format d'impression
+@import "print";

@@ -1,0 +1,11 @@
+@media print {
+	header, footer  {
+		display: none;
+		
+	}
+	.confirmation {
+		.transac {
+			display: none;
+		}
+	}
+}

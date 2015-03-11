@@ -1,0 +1,50 @@
+//version mobile (640px et -)
+@media #{$small-only} {
+	// .sidebar {
+	// 	display: inherit !important;
+	// 	nav {
+	// 		ul {
+	// 			.mobile-button, .mobile-keep {
+	// 				display: inherit !important;
+	// 				border-right: solid 1px #5f5555;
+	// 			}
+	// 		}
+	// 	}
+	// }
+	// nav {
+	// 	ul {
+	// 		li{
+	// 			display: none;
+	// 		}
+	// 		.mobile-button, .mobile-keep {
+	// 			display: inline !important;
+	// 			border: none;
+	// 			.menu-mobile {
+	// 				background-image: url("../images/bouton.png");
+	// 				background-repeat: no-repeat;
+	// 				background-position: 50% 50%;
+	// 				background-color: inherit;
+	// 				margin: 0;
+	// 				padding-right: 0;
+	// 			}
+	// 		}
+	// 	}
+	// }
+}
+@media#{$small-up}{
+	.sous-titre{
+		display: block;
+	}
+	.panier {
+		.transac {
+			a {
+				margin-left: 35px;
+				max-width: 70%;
+			}
+		}
+		h2 {
+			font-size: 1.8em;
+			min-height: 0;
+		}
+	}
+}

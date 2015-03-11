@@ -1,0 +1,131 @@
+//version tablette (1024px et -)
+@media #{$medium-only} {
+	.sidebar {
+		// display: inherit !important;
+		nav {
+			ul {
+				.mobile-button, .mobile-keep {
+					display: inherit !important;
+					border-right: solid 1px #5f5555;
+				}
+			}
+		}
+	}
+	nav {
+		ul {
+			li{
+				display: none;
+			}
+			.mobile-button, .mobile-keep {
+				display: inline;
+				border: none;
+				a.menu-mobile {
+					display: inline-block;
+					width: 33px;
+					height: 32px;
+				}
+				.menu-mobile {
+					background-image: url("../images/bouton.png");
+					background-repeat: no-repeat;
+					background-position: 50% 50%;
+					background-color: inherit;
+					margin: 0;
+					padding-right: 0;
+
+				}
+			}
+		}
+	}
+	header {
+		.achat {
+			.align {
+				text-align: inherit;
+			}
+		}
+	}
+	.accueil {
+		.coeurs {
+			.infoCoup {
+				position: initial;
+				margin-top: 10px;
+			}
+			.controle {
+				bottom: 50%;
+				overflow: hidden;
+				button {
+					margin-bottom: 20px;
+				}
+			}
+		}
+		.content-wrap {
+			.nouveaute {
+				position: initial;
+				margin-top: initial;
+				height: initial;
+			}
+		}
+	}
+	.ficheLivres {
+		position: relative;		
+		.headerFicheLivre, .description, .faitParler, .comment{
+			background: white;
+		}
+		.description {
+			padding-top: 20px;
+		}
+		.auteurs, .ficheTechnique {
+			background: $p-grey;
+		}
+		.auteurs {
+			a {
+				display: none;
+			}
+		}
+	}
+	footer {
+		div {
+			.footer-left {
+				position: initial;
+			}
+		}
+		
+		.liste {
+			background-color: $p-grey !important;
+			padding-right: 20px;
+			padding-left: 20px;
+			h3 {
+				display: block !important;
+				.underline {
+					display: block;
+					height: 1px;
+					background-color: black;
+					width: 97%;
+				}
+			}
+			nav {
+				ul {
+					text-align: left;
+					li {
+						display: block;
+						border-right: none;
+						a {
+							font-size: 1.3em;
+							color: $black;
+							display: block;
+							border-bottom: dotted 1px black;
+							.underline {
+								display: none;
+							}
+						}
+					}
+					.mobile-keep, .mobile-button {
+						display: none;
+					}
+				}
+			}
+		}
+		.footer-left {
+			padding-left: 0;
+		}
+	}
+}

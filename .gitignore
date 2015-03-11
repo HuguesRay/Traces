@@ -1,0 +1,12 @@
+/.sass-cache/*
+*.DS_Store
+.idea
+.LCK
+sftp-config.json
+/inc/scripts/config.inc.php
+log-err.txt
+/images/covers
+/images/thumbnails
+ssl/images/covers
+ssl/images/thumbnails
+ssl/inc/scripts/config.inc.php
